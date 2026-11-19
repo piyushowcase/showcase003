@@ -10,7 +10,7 @@ import Pricing from "./pages/Pricing.jsx";
 import PaymentSuccess from "./pages/PaymentSuccess.jsx";
 import PaymentFailed from "./pages/PaymentFailed.jsx";
 // In your frontend config or App.jsx
-export const serverUrl = "http://localhost:3000";
+export const serverUrl = "https://showcase003-1.onrender.com";
 function App() {
   const dispatch = useDispatch()
   useEffect(() => {
