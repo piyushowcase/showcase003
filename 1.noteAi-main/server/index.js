@@ -14,7 +14,7 @@ dotenv.config()
 const app = express()
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://one-noteaiclient1.onrender.com"
+  "https://examnotesai-wtqn.onrender.com"
 ];
 app.use(cors({
   origin: function (origin, callback) {
